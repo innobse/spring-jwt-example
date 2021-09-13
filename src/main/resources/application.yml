@@ -1,0 +1,5 @@
+auth:
+  jwt:
+    secret: "bGVhcm51cGxlYXJudXBsZWFybnVw"
+server:
+  port: 8080

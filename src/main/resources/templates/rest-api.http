@@ -1,0 +1,19 @@
+GET http://localhost:8080/resource
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwicm9sZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiJdLCJpc3MiOiIvYXBpL2F1dGgiLCJleHAiOjE2MzE1NDUwMzJ9.8mdSTwSE2SlpI0rC7lwK3Pqud_TG7_c-eyi4wgS2LjI
+
+<> 2021-09-12T212552.403.html
+
+### Authentication
+POST http://localhost:8080/api/auth
+Content-Type: application/x-www-form-urlencoded
+
+username=user&password=user123
+
+### Refresh
+GET http://localhost:8080/api/tokenRefresh
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaXNzIjoiL2FwaS9hdXRoIiwiZXhwIjoxNjMxNTI3NjM4fQ.jaSnZI1oOMVNuQNvqtbMVsyNtzwIbndGNpaZMllfsqw
+
+
+<> 2021-09-12T212555.404.json
